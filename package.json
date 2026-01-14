@@ -1,0 +1,16 @@
+{
+  "name": "rasacore-creative-site",
+  "version": "1.0.0",
+  "description": "RasaCore.com creative lab website",
+  "main": "server.js",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
