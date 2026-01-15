@@ -124,7 +124,7 @@ const translations = {
     "hero.tag": "Kreativlabor • Health-Startups • Zukunftssysteme",
     "hero.title": "Wir gestalten lebendige Erlebnisse für die Gesundheitsbranche.",
     "hero.lead":
-      "RasaCore.com ist ein Kreativlabor, das mutige, menschenzentrierte Startups aufbaut. Wir verbinden Wissenschaft, Kunst und Technologie zu etwas Lebendigem.",
+      "Rasa ist ein Kreativlabor, das mutige, menschenzentrierte Startups aufbaut. Wir verbinden Wissenschaft, Kunst und Technologie zu etwas Lebendigem.",
     "hero.ctaPrimary": "Projekte entdecken",
     "hero.ctaGhost": "Portfolio ansehen",
     "vision.title": "Unsere Vision",
@@ -181,10 +181,10 @@ const translations = {
     "projects.meta.established": "Etabliert: 2",
     "projects.meta.current": "Aktuell: 1",
     "projects.meta.future": "Zukunft: 1",
-    "projects.marquee1": "RasaCore Projekt-Schaufenster",
+    "projects.marquee1": "Rasa Projekt-Schaufenster",
     "projects.marquee2": "Unabhängiges Health-Studio",
     "projects.marquee3": "Human-Centered Systems",
-    "lab.title": "RasaCore Creative Lab",
+    "lab.title": "Rasa Creative Lab",
     "lab.body":
       "Wir sind ein Startup-Studio mit Health-Fokus. Unser Labor verbindet Strategie, Marke, Produkt und Deep-Tech zu einem kreativen Motor.",
     "lab.card1.title": "Erkunden",
@@ -198,7 +198,7 @@ const translations = {
     "about.eyebrow": "Über uns",
     "about.title": "Ein fokussiertes Studio für Gesundheitszukunft.",
     "about.body":
-      "RasaCore ist ein unabhängiges Kreativlabor für health-first Produkte. Wir verbinden Forschung, elegante Systeme und eine langfristige Perspektive.",
+      "Rasa ist ein unabhängiges Kreativlabor für health-first Produkte. Wir verbinden Forschung, elegante Systeme und eine langfristige Perspektive.",
     "about.missionTitle": "Unsere Mission",
     "about.missionBody":
       "Lebendige Werkzeuge entwerfen, die Gesundheitsentscheidungen vom Alltag bis zum Lebensverlauf stärken.",
@@ -213,10 +213,10 @@ const translations = {
       "Erzählen Sie uns Ihre Idee. Wir antworten innerhalb von 48 Stunden.",
     "contact.emailLabel": "E-Mail",
     "contact.studioLabel": "Studio",
-    "contact.studioValue": "RasaCore Creative Lab",
+    "contact.studioValue": "Rasa Creative Lab",
     "contact.focusLabel": "Fokus",
     "contact.focusValue": "Health-Industry-Startups",
-    footer: "© 2026 RasaCore.com — Creative Lab für Health-Startups",
+    footer: "© 2026 Rasa — Creative Lab für Health-Startups",
     "badge.madeIn": "Hergestellt in Deutschland",
   },
   fr: {
@@ -230,7 +230,7 @@ const translations = {
     "hero.title":
       "Nous concevons des expériences vivantes pour l’industrie de la santé.",
     "hero.lead":
-      "RasaCore.com est un laboratoire créatif qui construit des startups audacieuses et centrées sur l’humain. Nous fusionnons science, art et technologie.",
+      "Rasa est un laboratoire créatif qui construit des startups audacieuses et centrées sur l’humain. Nous fusionnons science, art et technologie.",
     "hero.ctaPrimary": "Découvrir les projets",
     "hero.ctaGhost": "Voir le portfolio",
     "vision.title": "Notre vision",
@@ -288,10 +288,10 @@ const translations = {
     "projects.meta.established": "Établis : 2",
     "projects.meta.current": "Actuel : 1",
     "projects.meta.future": "Futur : 1",
-    "projects.marquee1": "Vitrine RasaCore",
+    "projects.marquee1": "Vitrine Rasa",
     "projects.marquee2": "Studio santé indépendant",
     "projects.marquee3": "Systèmes centrés humain",
-    "lab.title": "RasaCore Creative Lab",
+    "lab.title": "Rasa Creative Lab",
     "lab.body":
       "Studio de startups avec mission santé. Notre labo unit stratégie, marque, produit et deep-tech.",
     "lab.card1.title": "Explorer",
@@ -305,7 +305,7 @@ const translations = {
     "about.eyebrow": "À propos",
     "about.title": "Un studio focalisé sur l’avenir de la santé.",
     "about.body":
-      "RasaCore est un laboratoire créatif indépendant dédié aux produits health-first. Nous travaillons avec recherche profonde et systèmes élégants.",
+      "Rasa est un laboratoire créatif indépendant dédié aux produits health-first. Nous travaillons avec recherche profonde et systèmes élégants.",
     "about.missionTitle": "Notre mission",
     "about.missionBody":
       "Concevoir des outils vivants qui élèvent les décisions santé, du quotidien aux grands horizons.",
@@ -319,10 +319,10 @@ const translations = {
     "contact.body": "Parlez-nous de votre idée. Réponse sous 48 h.",
     "contact.emailLabel": "Email",
     "contact.studioLabel": "Studio",
-    "contact.studioValue": "RasaCore Creative Lab",
+    "contact.studioValue": "Rasa Creative Lab",
     "contact.focusLabel": "Focus",
     "contact.focusValue": "Startups santé",
-    footer: "© 2026 RasaCore.com — Creative Lab pour startups santé",
+    footer: "© 2026 Rasa — Creative Lab pour startups santé",
     "badge.madeIn": "Fabriqué en Allemagne",
   },
   it: {
@@ -336,7 +336,7 @@ const translations = {
     "hero.title":
       "Progettiamo esperienze vive per l’industria della salute.",
     "hero.lead":
-      "RasaCore.com è un laboratorio creativo che costruisce startup audaci e umane. Uniamo scienza, arte e tecnologia.",
+      "Rasa è un laboratorio creativo che costruisce startup audaci e umane. Uniamo scienza, arte e tecnologia.",
     "hero.ctaPrimary": "Esplora i progetti",
     "hero.ctaGhost": "Vedi il portfolio",
     "vision.title": "La nostra visione",
@@ -393,10 +393,10 @@ const translations = {
     "projects.meta.established": "Stabili: 2",
     "projects.meta.current": "Attuale: 1",
     "projects.meta.future": "Futuro: 1",
-    "projects.marquee1": "Vetrina RasaCore",
+    "projects.marquee1": "Vetrina Rasa",
     "projects.marquee2": "Studio salute indipendente",
     "projects.marquee3": "Sistemi centrati sull’uomo",
-    "lab.title": "RasaCore Creative Lab",
+    "lab.title": "Rasa Creative Lab",
     "lab.body":
       "Startup studio con missione salute. Uniamo strategia, brand, prodotto e deep-tech.",
     "lab.card1.title": "Esplora",
@@ -409,7 +409,7 @@ const translations = {
     "about.eyebrow": "Chi siamo",
     "about.title": "Uno studio focalizzato sul futuro della salute.",
     "about.body":
-      "RasaCore è un laboratorio creativo indipendente dedicato a prodotti health-first. Uniamo ricerca profonda e sistemi eleganti.",
+      "Rasa è un laboratorio creativo indipendente dedicato a prodotti health-first. Uniamo ricerca profonda e sistemi eleganti.",
     "about.missionTitle": "La nostra missione",
     "about.missionBody":
       "Progettare strumenti vivi che elevano le decisioni di salute, dal quotidiano al lungo termine.",
@@ -423,10 +423,10 @@ const translations = {
     "contact.body": "Raccontaci la tua idea. Risposta in 48 ore.",
     "contact.emailLabel": "Email",
     "contact.studioLabel": "Studio",
-    "contact.studioValue": "RasaCore Creative Lab",
+    "contact.studioValue": "Rasa Creative Lab",
     "contact.focusLabel": "Focus",
     "contact.focusValue": "Startup salute",
-    footer: "© 2026 RasaCore.com — Creative Lab per startup salute",
+    footer: "© 2026 Rasa — Creative Lab per startup salute",
     "badge.madeIn": "Prodotto in Germania",
   },
   es: {
@@ -440,7 +440,7 @@ const translations = {
     "hero.title":
       "Diseñamos experiencias vivas para la industria de la salud.",
     "hero.lead":
-      "RasaCore.com es un laboratorio creativo que construye startups audaces y humanas. Unimos ciencia, arte y tecnología.",
+      "Rasa es un laboratorio creativo que construye startups audaces y humanas. Unimos ciencia, arte y tecnología.",
     "hero.ctaPrimary": "Explorar proyectos",
     "hero.ctaGhost": "Ver portafolio",
     "vision.title": "Nuestra visión",
@@ -497,10 +497,10 @@ const translations = {
     "projects.meta.established": "Establecidos: 2",
     "projects.meta.current": "Actual: 1",
     "projects.meta.future": "Futuro: 1",
-    "projects.marquee1": "Vitrina RasaCore",
+    "projects.marquee1": "Vitrina Rasa",
     "projects.marquee2": "Estudio de salud independiente",
     "projects.marquee3": "Sistemas centrados en humanos",
-    "lab.title": "RasaCore Creative Lab",
+    "lab.title": "Rasa Creative Lab",
     "lab.body":
       "Studio de startups con misión salud. Unimos estrategia, marca, producto y deep-tech.",
     "lab.card1.title": "Explorar",
@@ -512,7 +512,7 @@ const translations = {
     "about.eyebrow": "Acerca de",
     "about.title": "Un estudio enfocado en el futuro de la salud.",
     "about.body":
-      "RasaCore es un laboratorio creativo independiente dedicado a productos health-first. Unimos investigación profunda y sistemas elegantes.",
+      "Rasa es un laboratorio creativo independiente dedicado a productos health-first. Unimos investigación profunda y sistemas elegantes.",
     "about.missionTitle": "Nuestra misión",
     "about.missionBody":
       "Diseñar herramientas vivas que elevan decisiones de salud, del día a día al largo plazo.",
@@ -526,10 +526,10 @@ const translations = {
     "contact.body": "Cuéntanos tu idea. Respondemos en 48 horas.",
     "contact.emailLabel": "Email",
     "contact.studioLabel": "Studio",
-    "contact.studioValue": "RasaCore Creative Lab",
+    "contact.studioValue": "Rasa Creative Lab",
     "contact.focusLabel": "Enfoque",
     "contact.focusValue": "Startups de salud",
-    footer: "© 2026 RasaCore.com — Creative Lab para startups de salud",
+    footer: "© 2026 Rasa — Creative Lab para startups de salud",
     "badge.madeIn": "Hecho en Alemania",
   },
 };
