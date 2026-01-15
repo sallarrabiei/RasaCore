@@ -595,9 +595,14 @@ const updateNav = () => {
     document.documentElement.scrollTop ||
     document.body.scrollTop ||
     0;
-  const maxDepth = 320;
-  const depth = Math.min(scrollTop / maxDepth, 1);
-  const scrolled = scrollTop > 2;
+  const docHeight =
+    Math.max(
+      document.documentElement.scrollHeight,
+      document.body.scrollHeight
+    ) - window.innerHeight;
+  const ratio = docHeight > 0 ? scrollTop / docHeight : 0;
+  const depth = Math.min(Math.max(ratio, 0), 1);
+  const scrolled = ratio > 0.03;
   nav.style.setProperty("--nav-bg", scrolled ? depth.toFixed(3) : "0");
   nav.classList.toggle("is-scrolled", scrolled);
 };
