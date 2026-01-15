@@ -61,7 +61,7 @@ const translations = {
     "projects.review.point1": "Side-by-side comparisons with clarity",
     "projects.review.point2": "Signal-based scoring for daily usefulness",
     "projects.review.point3": "Designed for transparency and confidence",
-    "projects.sanihealth.title": "Sani Health",
+    "projects.sanihealth.title": "Sanio",
     "projects.sanihealth.body":
       "A future life-extension companion that tracks the metrics of daily vitality, longevity, and resilience with gentle guidance.",
     "projects.sanihealth.tag1": "Life Metrics",
@@ -110,7 +110,8 @@ const translations = {
     "contact.studioValue": "RasaCore Creative Lab",
     "contact.focusLabel": "Focus",
     "contact.focusValue": "Health Industry Startups",
-    footer: "© 2026 RasaCore.com — Creative Lab for Health Startups"
+    footer: "© 2026 RasaCore.com — Creative Lab for Health Startups",
+    "badge.madeIn": "Made in Germany",
   },
   de: {
     "nav.menu": "Menü",
@@ -167,7 +168,7 @@ const translations = {
     "projects.review.point1": "Direkte Vergleiche mit Klarheit",
     "projects.review.point2": "Signalbasiertes Scoring für Alltagstauglichkeit",
     "projects.review.point3": "Transparenz und Vertrauen im Fokus",
-    "projects.sanihealth.title": "Sani Health",
+    "projects.sanihealth.title": "Sanio",
     "projects.sanihealth.body":
       "Ein zukünftiger Life-Extension-Begleiter, der tägliche Vitalität, Langlebigkeit und Resilienz sanft sichtbar macht.",
     "projects.sanihealth.tag1": "Lebensmetriken",
@@ -213,7 +214,8 @@ const translations = {
     "contact.studioValue": "RasaCore Creative Lab",
     "contact.focusLabel": "Fokus",
     "contact.focusValue": "Health-Industry-Startups",
-    footer: "© 2026 RasaCore.com — Creative Lab für Health-Startups"
+    footer: "© 2026 RasaCore.com — Creative Lab für Health-Startups",
+    "badge.madeIn": "Hergestellt in Deutschland",
   },
   fr: {
     "nav.menu": "Menu",
@@ -272,7 +274,7 @@ const translations = {
     "projects.review.point1": "Comparaisons claires côte à côte",
     "projects.review.point2": "Score basé sur les signaux utiles",
     "projects.review.point3": "Transparence et confiance",
-    "projects.sanihealth.title": "Sani Health",
+    "projects.sanihealth.title": "Sanio",
     "projects.sanihealth.body":
       "Un compagnon futur pour prolonger la vie, qui suit vitalité, longévité et résilience au quotidien.",
     "projects.sanihealth.tag1": "Métriques de vie",
@@ -317,7 +319,8 @@ const translations = {
     "contact.studioValue": "RasaCore Creative Lab",
     "contact.focusLabel": "Focus",
     "contact.focusValue": "Startups santé",
-    footer: "© 2026 RasaCore.com — Creative Lab pour startups santé"
+    footer: "© 2026 RasaCore.com — Creative Lab pour startups santé",
+    "badge.madeIn": "Fabriqué en Allemagne",
   },
   it: {
     "nav.menu": "Menu",
@@ -375,7 +378,7 @@ const translations = {
     "projects.review.point1": "Confronti chiari affiancati",
     "projects.review.point2": "Punteggio basato su segnali utili",
     "projects.review.point3": "Trasparenza e fiducia",
-    "projects.sanihealth.title": "Sani Health",
+    "projects.sanihealth.title": "Sanio",
     "projects.sanihealth.body":
       "Un futuro compagno per la longevità che segue vitalità, resilienza e durata della vita.",
     "projects.sanihealth.tag1": "Metriche di vita",
@@ -419,7 +422,8 @@ const translations = {
     "contact.studioValue": "RasaCore Creative Lab",
     "contact.focusLabel": "Focus",
     "contact.focusValue": "Startup salute",
-    footer: "© 2026 RasaCore.com — Creative Lab per startup salute"
+    footer: "© 2026 RasaCore.com — Creative Lab per startup salute",
+    "badge.madeIn": "Prodotto in Germania",
   },
   es: {
     "nav.menu": "Menú",
@@ -477,7 +481,7 @@ const translations = {
     "projects.review.point1": "Comparaciones claras lado a lado",
     "projects.review.point2": "Puntuación basada en señales útiles",
     "projects.review.point3": "Transparencia y confianza",
-    "projects.sanihealth.title": "Sani Health",
+    "projects.sanihealth.title": "Sanio",
     "projects.sanihealth.body":
       "Un futuro compañero de longevidad que sigue vitalidad, resiliencia y vida diaria.",
     "projects.sanihealth.tag1": "Métricas de vida",
@@ -520,216 +524,20 @@ const translations = {
     "contact.studioValue": "RasaCore Creative Lab",
     "contact.focusLabel": "Enfoque",
     "contact.focusValue": "Startups de salud",
-    footer: "© 2026 RasaCore.com — Creative Lab para startups de salud"
+    footer: "© 2026 RasaCore.com — Creative Lab para startups de salud",
+    "badge.madeIn": "Hecho en Alemania",
   },
-  ar: {
-    "nav.menu": "القائمة",
-    "nav.vision": "الرؤية",
-    "nav.projects": "عرض المشاريع",
-    "nav.about": "من نحن",
-    "nav.lab": "المختبر",
-    "nav.contact": "تواصل",
-    "hero.tag": "مختبر إبداعي • شركات صحة ناشئة • أنظمة مستقبلية",
-    "hero.title": "نصمم تجارب حيّة لصناعة الصحة.",
-    "hero.lead":
-      "RasaCore.com مختبر إبداعي يبني شركات جريئة تتمحور حول الإنسان. نمزج العلم والفن والتقنية في تجربة نابضة.",
-    "hero.ctaPrimary": "استكشف المشاريع",
-    "hero.ctaGhost": "اعرض المحفظة",
-    "vision.title": "رؤيتنا",
-    "vision.body":
-      "نبني شركات صحة أولاً بعقلية المبدع: تجارب سريعة، تعاطف دقيق، وأنظمة تنمو ككائنات حيّة.",
-    "vision.pill1": "تجربة مستخدم متكيفة حيوياً",
-    "vision.pill2": "تصميم سلوكي",
-    "vision.pill3": "منصات رعاية صحية",
-    "vision.pill4": "ذكاء وقائي للصحة",
-    "vision.pill5": "أنظمة محورها المريض",
-    "vision.pill6": "أثر قابل للتوسع",
-    "projects.eyebrow": "عرض المشاريع",
-    "projects.title": "منصتنا لعرض الابتكار الصحي.",
-    "projects.body":
-      "نطوّر منتجاتنا داخلياً دون تعاون خارجي. منصتان راسختان، مشروع جارٍ، ورؤية مستقبلية.",
-    "projects.signal": "استوديو مستقل",
-    "projects.visit": "زيارة",
-    "projects.sanivivo.title": "Sani Vivo",
-    "projects.sanivivo.body":
-      "قاعدة معرفية حيّة تحوّل الرؤى الصحية المعقدة إلى خطوات وقائية يومية.",
-    "projects.sanivivo.tag1": "قاعدة معرفة",
-    "projects.sanivivo.tag2": "رعاية وقائية",
-    "projects.sanivivo.tag3": "صحة عامة",
-    "projects.sanivivo.point1": "بطاقات أدلة ديناميكية بإشراف مختصين",
-    "projects.sanivivo.point2": "إرشادات محلية للروتين اليومي",
-    "projects.sanivivo.point3": "طبقة ثقة للوضوح وسهولة الوصول",
-    "projects.kyo.title": "Know Yourself Online",
-    "projects.kyo.body":
-      "منصة للصحة النفسية واختبارات نفسية واكتشاف الذات بهدوء وعناية.",
-    "projects.kyo.tag1": "الصحة النفسية",
-    "projects.kyo.tag2": "اختبارات نفسية",
-    "projects.kyo.tag3": "بصيرة ذاتية",
-    "projects.kyo.point1": "تقييمات مُراجعة سريرياً",
-    "projects.kyo.point2": "خريطة بصرية للتقدم العاطفي",
-    "projects.kyo.point3": "خصوصية وأمان دون وصمة",
-    "projects.review.title": "Review",
-    "projects.review.body":
-      "مشروعنا الحالي: منصة مراجعات لأجهزة الصحة تفصل بين الضجيج والأثر الحقيقي.",
-    "projects.review.tag1": "أجهزة صحة",
-    "projects.review.tag2": "مراجعات مبنية على أدلة",
-    "projects.review.tag3": "ثقة المستخدم",
-    "projects.review.point1": "مقارنات واضحة جنباً إلى جنب",
-    "projects.review.point2": "تقييم قائم على إشارات مفيدة",
-    "projects.review.point3": "مصممة للشفافية والثقة",
-    "projects.sanihealth.title": "Sani Health",
-    "projects.sanihealth.body":
-      "رفيق مستقبلي لإطالة العمر يتابع مؤشرات الحيوية والمرونة وطول الحياة بإرشاد لطيف.",
-    "projects.sanihealth.tag1": "مؤشرات الحياة",
-    "projects.sanihealth.tag2": "طول العمر",
-    "projects.sanihealth.tag3": "تتبع الحيوية",
-    "projects.sanihealth.point1": "لوحات شخصية من إشارات ذات معنى",
-    "projects.sanihealth.point2": "اتجاهات تكشف تطور صحتك بمرور الوقت",
-    "projects.sanihealth.point3": "مصمم ليكون ملهمًا لا سريريًا",
-    "projects.meta.established": "راسخة: 2",
-    "projects.meta.current": "حالي: 1",
-    "projects.meta.future": "مستقبل: 1",
-    "projects.marquee1": "عرض مشاريع RasaCore",
-    "projects.marquee2": "استوديو صحة مستقل",
-    "projects.marquee3": "أنظمة تتمحور حول الإنسان",
-    "lab.title": "RasaCore Creative Lab",
-    "lab.body":
-      "استوديو شركات ناشئة بمهمة صحية. نجمع الاستراتيجية والهوية والمنتج وديب تك.",
-    "lab.card1.title": "استكشاف",
-    "lab.card1.body": "نرسم احتياجات غير ملباة ونبني نماذج أولية.",
-    "lab.card2.title": "احتضان",
-    "lab.card2.body": "نبني ونوسع شركاتنا بعقلية صانع دقيقة.",
-    "lab.card3.title": "إطلاق",
-    "lab.card3.body": "منتجات سينمائية بسلوك طبي دقيق.",
-    "about.eyebrow": "من نحن",
-    "about.title": "استوديو مركّز لصناعة مستقبل الصحة.",
-    "about.body":
-      "RasaCore مختبر إبداعي مستقل لبناء منتجات تضع الصحة أولاً. نعمل ببحث عميق وأنظمة أنيقة ورؤية بعيدة المدى.",
-    "about.missionTitle": "مهمتنا",
-    "about.missionBody":
-      "تصميم أدوات حيّة ترفع جودة قرارات الصحة من العادات اليومية إلى النتائج الكبرى.",
-    "about.membersTitle": "الأعضاء",
-    "about.member1Role": "قائدة الرؤى والأبحاث الصحية",
-    "about.member2Role": "المؤسس ومدير الاستوديو",
-    "about.member3Role": "استراتيجية المنتج والتنفيذ",
-    "about.member4Role": "قائد التقنية والمنصة",
-    "contact.title": "لنصنع مستقبل الصحة",
-    "contact.body": "أخبرنا بفكرتك. سنرد خلال 48 ساعة.",
-    "contact.emailLabel": "البريد الإلكتروني",
-    "contact.studioLabel": "الاستوديو",
-    "contact.studioValue": "RasaCore Creative Lab",
-    "contact.focusLabel": "التركيز",
-    "contact.focusValue": "شركات صحة ناشئة",
-    footer: "© 2026 RasaCore.com — مختبر إبداعي لشركات الصحة"
-  },
-  fa: {
-    "nav.menu": "منو",
-    "nav.vision": "چشم‌انداز",
-    "nav.projects": "نمایش پروژه‌ها",
-    "nav.about": "درباره ما",
-    "nav.lab": "لابراتوار",
-    "nav.contact": "تماس",
-    "hero.tag": "لابراتوار خلاق • استارتاپ‌های سلامت • سیستم‌های آینده",
-    "hero.title": "تجربه‌های زنده برای صنعت سلامت می‌سازیم.",
-    "hero.lead":
-      "RasaCore.com یک لابراتوار خلاق است که استارتاپ‌های جسور و انسان‌محور می‌سازد. علم، هنر و فناوری را در یک تجربه زنده ترکیب می‌کنیم.",
-    "hero.ctaPrimary": "دیدن پروژه‌ها",
-    "hero.ctaGhost": "مشاهده نمونه‌کارها",
-    "vision.title": "چشم‌انداز ما",
-    "vision.body":
-      "استارتاپ‌های سلامت‌محور را با ذهنیت خلاق می‌سازیم: آزمایش سریع، همدلی دقیق و سیستم‌هایی که مثل موجود زنده رشد می‌کنند.",
-    "vision.pill1": "UX زیست‌انطباق",
-    "vision.pill2": "طراحی رفتاری",
-    "vision.pill3": "پلتفرم‌های مراقبتی",
-    "vision.pill4": "هوش مصنوعی پیشگیرانه",
-    "vision.pill5": "سیستم‌های بیمارمحور",
-    "vision.pill6": "اثر مقیاس‌پذیر",
-    "projects.eyebrow": "نمایش پروژه‌ها",
-    "projects.title": "پلتفرم ارائه نوآوری سلامت.",
-    "projects.body":
-      "محصولات خود را بدون همکاری بیرونی می‌سازیم. دو پلتفرم تثبیت‌شده، یک پروژه جاری و یک چشم‌انداز آینده داریم.",
-    "projects.signal": "استودیو مستقل",
-    "projects.visit": "بازدید",
-    "projects.sanivivo.title": "Sani Vivo",
-    "projects.sanivivo.body":
-      "دانش‌نامه‌ای زنده که بینش‌های پیچیده سلامت را به اقدام‌های پیشگیرانه روزمره تبدیل می‌کند.",
-    "projects.sanivivo.tag1": "دانش‌نامه",
-    "projects.sanivivo.tag2": "مراقبت پیشگیرانه",
-    "projects.sanivivo.tag3": "سلامت عمومی",
-    "projects.sanivivo.point1": "کارت‌های شواهد پویا با نظارت متخصصان",
-    "projects.sanivivo.point2": "راهنمای بومی برای عادت‌های روزانه",
-    "projects.sanivivo.point3": "لایه اعتماد برای وضوح و دسترسی",
-    "projects.kyo.title": "Know Yourself Online",
-    "projects.kyo.body":
-      "پلتفرم سلامت روان برای آزمون‌های روان‌شناختی و خودشناسی با تجربه‌ای آرام.",
-    "projects.kyo.tag1": "سلامت روان",
-    "projects.kyo.tag2": "آزمون‌های روان‌شناختی",
-    "projects.kyo.tag3": "خودآگاهی",
-    "projects.kyo.point1": "ارزیابی‌های بازبینی‌شده بالینی",
-    "projects.kyo.point2": "نقشه بصری پیشرفت هیجانی",
-    "projects.kyo.point3": "خصوصی، امن و بدون انگ",
-    "projects.review.title": "Review",
-    "projects.review.body":
-      "پروژه جاری: مرجع نقد ابزارهای سلامت برای جداسازی هیاهو از اثر واقعی.",
-    "projects.review.tag1": "ابزارهای سلامت",
-    "projects.review.tag2": "نقد مبتنی بر شواهد",
-    "projects.review.tag3": "اعتماد مصرف‌کننده",
-    "projects.review.point1": "مقایسه‌های شفاف کنار هم",
-    "projects.review.point2": "امتیازدهی بر اساس سیگنال‌های مفید",
-    "projects.review.point3": "طراحی شده برای شفافیت و اعتماد",
-    "projects.sanihealth.title": "Sani Health",
-    "projects.sanihealth.body":
-      "همراه آینده برای افزایش طول عمر که شاخص‌های حیاتی، طول عمر و تاب‌آوری را دنبال می‌کند.",
-    "projects.sanihealth.tag1": "شاخص‌های زندگی",
-    "projects.sanihealth.tag2": "طول عمر",
-    "projects.sanihealth.tag3": "پایش سرزندگی",
-    "projects.sanihealth.point1": "داشبوردهای شخصی از سیگنال‌های معنادار",
-    "projects.sanihealth.point2": "روندهایی که تغییر سلامت را در زمان نشان می‌دهد",
-    "projects.sanihealth.point3": "الهام‌بخش، نه بالینی",
-    "projects.meta.established": "تثبیت‌شده: 2",
-    "projects.meta.current": "جاری: 1",
-    "projects.meta.future": "آینده: 1",
-    "projects.marquee1": "نمایش پروژه‌های RasaCore",
-    "projects.marquee2": "استودیو مستقل سلامت",
-    "projects.marquee3": "سیستم‌های انسان‌محور",
-    "lab.title": "RasaCore Creative Lab",
-    "lab.body":
-      "استودیو استارتاپ با مأموریت سلامت. استراتژی، برند، محصول و دیپ‌تک را ترکیب می‌کنیم.",
-    "lab.card1.title": "کاوش",
-    "lab.card1.body": "نیازهای برآورده‌نشده را نقشه‌برداری می‌کنیم.",
-    "lab.card2.title": "رشد",
-    "lab.card2.body": "استارتاپ‌های خودمان را با ذهنیت سازنده می‌سازیم.",
-    "lab.card3.title": "راه‌اندازی",
-    "lab.card3.body": "محصولات سینمایی با دقت پزشکی.",
-    "about.eyebrow": "درباره ما",
-    "about.title": "استودیویی متمرکز بر آینده سلامت.",
-    "about.body":
-      "RasaCore لابراتوار خلاق مستقلی است برای ساخت محصولات سلامت‌محور. پژوهش عمیق، سیستم‌های ظریف و نگاه بلندمدت را کنار هم می‌آوریم.",
-    "about.missionTitle": "ماموریت ما",
-    "about.missionBody":
-      "طراحی ابزارهای زنده که تصمیم‌های سلامت را از عادت‌های روزانه تا نتایج بزرگ ارتقا می‌دهد.",
-    "about.membersTitle": "اعضا",
-    "about.member1Role": "رهبر بینش و پژوهش سلامت",
-    "about.member2Role": "بنیان‌گذار و مدیر استودیو",
-    "about.member3Role": "راهبری محصول و اجرا",
-    "about.member4Role": "رهبر فناوری و پلتفرم",
-    "contact.title": "آینده سلامت را بسازیم",
-    "contact.body": "ایده‌تان را بگویید. در ۴۸ ساعت پاسخ می‌دهیم.",
-    "contact.emailLabel": "ایمیل",
-    "contact.studioLabel": "استودیو",
-    "contact.studioValue": "RasaCore Creative Lab",
-    "contact.focusLabel": "تمرکز",
-    "contact.focusValue": "استارتاپ‌های سلامت",
-    footer: "© 2026 RasaCore.com — لابراتوار خلاق سلامت"
-  }
 };
 
-const rtlLangs = new Set(["ar", "fa"]);
+const supportedLangs = Object.keys(translations);
 
-function setLanguage(lang) {
-  const strings = translations[lang] || translations.en;
-  document.documentElement.lang = lang;
-  document.documentElement.dir = rtlLangs.has(lang) ? "rtl" : "ltr";
+const rtlLangs = new Set([]);
+
+function setLanguage(lang, { updateUrl = true } = {}) {
+  const safeLang = supportedLangs.includes(lang) ? lang : "en";
+  const strings = translations[safeLang] || translations.en;
+  document.documentElement.lang = safeLang;
+  document.documentElement.dir = rtlLangs.has(safeLang) ? "rtl" : "ltr";
   document.querySelectorAll("[data-i18n]").forEach((node) => {
     const key = node.getAttribute("data-i18n");
     if (strings[key]) {
@@ -738,7 +546,17 @@ function setLanguage(lang) {
   });
 
   if (langSelect) {
-    langSelect.value = lang;
+    langSelect.value = safeLang;
+  }
+
+  if (updateUrl) {
+    const url = new URL(window.location.href);
+    if (safeLang === "en") {
+      url.searchParams.delete("lang");
+    } else {
+      url.searchParams.set("lang", safeLang);
+    }
+    window.history.replaceState({}, "", url);
   }
 }
 
@@ -748,7 +566,8 @@ if (langSelect) {
   );
 }
 
-setLanguage("en");
+const urlLang = new URLSearchParams(window.location.search).get("lang");
+setLanguage(urlLang || "en", { updateUrl: false });
 
 if (navToggle && nav) {
   navToggle.addEventListener("click", () => {
