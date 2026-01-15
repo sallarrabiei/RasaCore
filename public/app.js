@@ -597,8 +597,9 @@ const updateNav = () => {
     0;
   const maxDepth = 320;
   const depth = Math.min(scrollTop / maxDepth, 1);
-  nav.style.setProperty("--nav-bg", depth.toFixed(3));
-  nav.classList.toggle("is-scrolled", scrollTop > 2);
+  const scrolled = scrollTop > 2;
+  nav.style.setProperty("--nav-bg", scrolled ? depth.toFixed(3) : "0");
+  nav.classList.toggle("is-scrolled", scrolled);
 };
 
 window.addEventListener("scroll", updateNav, { passive: true });
