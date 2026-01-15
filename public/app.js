@@ -16,7 +16,7 @@ const translations = {
     "hero.tag": "Creative Lab • Health Startups • Future Systems",
     "hero.title": "We design living experiences for the health industry.",
     "hero.lead":
-      "RasaCore.com is a creative lab that builds and incubates bold, human-centered startups. We fuse science, art, and technology into something that feels alive.",
+      "Rasa is a creative lab that builds and incubates bold, human-centered startups. We fuse science, art, and technology into something that feels alive.",
     "hero.ctaPrimary": "Explore the projects",
     "hero.ctaGhost": "View the portfolio",
     "vision.title": "Our Vision",
@@ -75,10 +75,10 @@ const translations = {
     "projects.meta.established": "Established: 2",
     "projects.meta.current": "Current: 1",
     "projects.meta.future": "Future: 1",
-    "projects.marquee1": "RasaCore Project Showcase",
+    "projects.marquee1": "Rasa Project Showcase",
     "projects.marquee2": "Independent Health Studio",
     "projects.marquee3": "Human-Centered Systems",
-    "lab.title": "RasaCore Creative Lab",
+    "lab.title": "Rasa Creative Lab",
     "lab.body":
       "We are a startup studio with a health-first mission. Our lab combines strategy, brand, product, and deep-tech experimentation into one creative engine.",
     "lab.card1.title": "Explore",
@@ -93,7 +93,7 @@ const translations = {
     "about.eyebrow": "About Us",
     "about.title": "A focused studio shaping health futures.",
     "about.body":
-      "RasaCore is an independent creative lab dedicated to building health-first products. We work with deep research, elegant systems, and a long-term view of human well-being.",
+      "Rasa is an independent creative lab dedicated to building health-first products. We work with deep research, elegant systems, and a long-term view of human well-being.",
     "about.missionTitle": "Our Mission",
     "about.missionBody":
       "Design living tools that elevate health decisions, from daily habits to life-scale outcomes.",
@@ -108,10 +108,10 @@ const translations = {
       "Tell us your challenge or idea. We’ll respond within 48 hours.",
     "contact.emailLabel": "Email",
     "contact.studioLabel": "Studio",
-    "contact.studioValue": "RasaCore Creative Lab",
+    "contact.studioValue": "Rasa Creative Lab",
     "contact.focusLabel": "Focus",
     "contact.focusValue": "Health Industry Startups",
-    footer: "© 2026 RasaCore.com — Creative Lab for Health Startups",
+    footer: "© 2026 Rasa — Creative Lab for Health Startups",
     "badge.madeIn": "Made in Germany",
   },
   de: {
