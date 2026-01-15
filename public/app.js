@@ -2,7 +2,7 @@ const glow = document.querySelector(".cursor-glow");
 const heroStage = document.querySelector(".hero-stage");
 const cards = document.querySelectorAll(".project-card");
 const langSelect = document.querySelector("#langSelect");
-const nav = document.querySelector(".nav");
+const nav = document.querySelector("nav.nav");
 const navToggle = document.querySelector(".nav-toggle");
 
 const translations = {
@@ -100,8 +100,9 @@ const translations = {
     "about.membersTitle": "Members",
     "about.member1Role": "Health Insight & Research Lead",
     "about.member2Role": "Founder & Studio Director",
-    "about.member3Role": "Product Strategy & Delivery",
+    "about.member3Role": "Research Strategy Director",
     "about.member4Role": "Technology & Platform Lead",
+    "about.member5Role": "Product Experience Director",
     "contact.title": "Let’s build the future of health",
     "contact.body":
       "Tell us your challenge or idea. We’ll respond within 48 hours.",
@@ -204,8 +205,9 @@ const translations = {
     "about.membersTitle": "Mitglieder",
     "about.member1Role": "Leitung Health-Insights & Forschung",
     "about.member2Role": "Gründer & Studioleitung",
-    "about.member3Role": "Produktstrategie & Umsetzung",
+    "about.member3Role": "Direktion Forschungsstrategie",
     "about.member4Role": "Leitung Technologie & Plattform",
+    "about.member5Role": "Direktion Produkterlebnis",
     "contact.title": "Gemeinsam die Zukunft der Gesundheit bauen",
     "contact.body":
       "Erzählen Sie uns Ihre Idee. Wir antworten innerhalb von 48 Stunden.",
@@ -310,8 +312,9 @@ const translations = {
     "about.membersTitle": "Membres",
     "about.member1Role": "Responsable insights & recherche santé",
     "about.member2Role": "Fondatrice/fondateur & direction studio",
-    "about.member3Role": "Stratégie produit & delivery",
+    "about.member3Role": "Direction stratégie de recherche",
     "about.member4Role": "Direction technologie & plateforme",
+    "about.member5Role": "Direction expérience produit",
     "contact.title": "Construisons le futur de la santé",
     "contact.body": "Parlez-nous de votre idée. Réponse sous 48 h.",
     "contact.emailLabel": "Email",
@@ -413,8 +416,9 @@ const translations = {
     "about.membersTitle": "Membri",
     "about.member1Role": "Responsabile insight & ricerca salute",
     "about.member2Role": "Founder & direzione studio",
-    "about.member3Role": "Strategia prodotto & delivery",
+    "about.member3Role": "Direzione strategia di ricerca",
     "about.member4Role": "Responsabile tecnologia & piattaforma",
+    "about.member5Role": "Direzione esperienza prodotto",
     "contact.title": "Costruiamo il futuro della salute",
     "contact.body": "Raccontaci la tua idea. Risposta in 48 ore.",
     "contact.emailLabel": "Email",
@@ -515,8 +519,9 @@ const translations = {
     "about.membersTitle": "Miembros",
     "about.member1Role": "Líder de insights e investigación en salud",
     "about.member2Role": "Fundador & director del estudio",
-    "about.member3Role": "Estrategia de producto & delivery",
+    "about.member3Role": "Dirección de estrategia de investigación",
     "about.member4Role": "Líder de tecnología & plataforma",
+    "about.member5Role": "Dirección de experiencia de producto",
     "contact.title": "Construyamos el futuro de la salud",
     "contact.body": "Cuéntanos tu idea. Respondemos en 48 horas.",
     "contact.emailLabel": "Email",
@@ -582,6 +587,36 @@ if (navToggle && nav) {
     });
   });
 }
+
+const updateNav = () => {
+  if (!nav) return;
+  const scrollTop =
+    window.scrollY ||
+    document.documentElement.scrollTop ||
+    document.body.scrollTop ||
+    0;
+  const maxDepth = 320;
+  const depth = Math.min(scrollTop / maxDepth, 1);
+  nav.style.setProperty("--nav-bg", depth.toFixed(3));
+  nav.classList.toggle("is-scrolled", scrollTop > 2);
+};
+
+window.addEventListener("scroll", updateNav, { passive: true });
+window.addEventListener("load", updateNav);
+window.addEventListener("pageshow", updateNav);
+document.addEventListener("DOMContentLoaded", updateNav);
+window.addEventListener("resize", updateNav, { passive: true });
+requestAnimationFrame(updateNav);
+
+// Failsafe: re-run a few times after load to ensure the class is applied
+let navRetry = 0;
+const navInterval = setInterval(() => {
+  updateNav();
+  navRetry += 1;
+  if (navRetry > 20) {
+    clearInterval(navInterval);
+  }
+}, 150);
 
 window.addEventListener("mousemove", (e) => {
   glow.style.left = `${e.clientX}px`;

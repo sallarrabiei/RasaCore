@@ -38,7 +38,7 @@ a {
 .hero {
   position: relative;
   min-height: 100vh;
-  padding: 32px 28px 80px;
+  padding: 96px 28px 80px;
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -68,6 +68,108 @@ a {
   justify-content: space-between;
   align-items: center;
   gap: 16px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 6;
+  padding: 14px 28px;
+  margin: 0;
+  background: transparent;
+  backdrop-filter: blur(0);
+  border-bottom: 1px solid transparent;
+  transition: background 0.3s ease, backdrop-filter 0.3s ease,
+    border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.nav::after {
+  content: "";
+  position: absolute;
+  left: 28px;
+  right: 28px;
+  bottom: 0;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(217, 181, 122, 0.4),
+    rgba(141, 215, 195, 0.4),
+    transparent
+  );
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.nav.is-scrolled {
+  background:
+    linear-gradient(
+      120deg,
+      rgba(217, 181, 122, 0.16),
+      rgba(141, 215, 195, 0.16),
+      rgba(215, 201, 255, 0.14)
+    ),
+    repeating-linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.06) 0,
+      rgba(255, 255, 255, 0.06) 18px,
+      rgba(255, 255, 255, 0.0) 18px,
+      rgba(255, 255, 255, 0.0) 36px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.05) 0,
+      rgba(255, 255, 255, 0.05) 18px,
+      rgba(255, 255, 255, 0.0) 18px,
+      rgba(255, 255, 255, 0.0) 36px
+    ),
+    radial-gradient(
+      circle at 20% 20%,
+      rgba(217, 181, 122, 0.25),
+      transparent 35%
+    ),
+    radial-gradient(
+      circle at 80% 15%,
+      rgba(141, 215, 195, 0.22),
+      transparent 45%
+    ),
+    rgba(255, 255, 255, 0.9) !important;
+  backdrop-filter: blur(18px);
+  border-bottom-color: rgba(0, 0, 0, 0.1);
+  box-shadow: 0 12px 34px rgba(0, 0, 0, 0.16);
+  color: #0b0b10;
+}
+
+.nav.is-scrolled .logo {
+  color: #0b0b10;
+}
+
+.nav.is-scrolled::after {
+  opacity: 1;
+}
+
+.nav.is-scrolled .nav-links {
+  color: #0b0b10;
+}
+
+.nav.is-scrolled .nav-links a:hover {
+  color: #0b0b10;
+}
+
+.nav.is-scrolled .nav-toggle {
+  color: #0b0b10;
+  border-color: rgba(0, 0, 0, 0.12);
+  background: rgba(0, 0, 0, 0.04);
+}
+
+.nav.is-scrolled .nav-toggle-icon span {
+  background: #0b0b10;
+}
+
+.nav.is-scrolled .lang-select {
+  color: #0b0b10;
+  border-color: rgba(0, 0, 0, 0.12);
+  background-image: linear-gradient(45deg, transparent 50%, #0b0b10 50%),
+    linear-gradient(135deg, #0b0b10 50%, transparent 50%);
 }
 
 .nav-toggle {
@@ -858,6 +960,42 @@ html[dir="rtl"] .contact-panel {
   border-top: 1px solid var(--border);
 }
 
+.made-in-badge {
+  position: fixed;
+  right: 28px;
+  bottom: 24px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 16px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid var(--border);
+  color: var(--fg);
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-size: 0.7rem;
+  backdrop-filter: blur(16px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+  z-index: 5;
+}
+
+.flag-de {
+  width: 28px;
+  height: 16px;
+  border-radius: 4px;
+  background: linear-gradient(
+    to bottom,
+    #000 0%,
+    #000 33.33%,
+    #dd0000 33.33%,
+    #dd0000 66.66%,
+    #ffce00 66.66%,
+    #ffce00 100%
+  );
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.2);
+}
+
 .orb-field {
   position: absolute;
   inset: 0;
@@ -977,6 +1115,25 @@ html[dir="rtl"] .contact-panel {
   z-index: 1;
 }
 
+.scroll-shade {
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(
+      circle at 50% 10%,
+      rgba(0, 0, 0, 0.1),
+      transparent 60%
+    ),
+    linear-gradient(180deg, rgba(11, 11, 16, 0.2), rgba(11, 11, 16, 0.6));
+  opacity: 0;
+  transition: opacity 0.6s ease;
+  pointer-events: none;
+  z-index: 1;
+}
+
+body.is-scrolled .scroll-shade {
+  opacity: 1;
+}
+
 .cursor-glow {
   position: fixed;
   width: 240px;
@@ -1071,7 +1228,7 @@ html[dir="rtl"] .contact-panel {
 
 @media (max-width: 600px) {
   .hero {
-    padding: 24px 20px 60px;
+    padding: 88px 20px 60px;
   }
 
   .section {
@@ -1102,6 +1259,13 @@ html[dir="rtl"] .contact-panel {
 
   .shards span {
     width: 100px;
+  }
+
+  .made-in-badge {
+    right: 16px;
+    bottom: 16px;
+    padding: 8px 12px;
+    font-size: 0.62rem;
   }
 }
 
